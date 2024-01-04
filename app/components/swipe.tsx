@@ -149,6 +149,7 @@ const Swipe = () => {
               />
             </a>
           </li>
+
           <li className="glide__slide">
             <a
               href="https://picsum.photos/768/1024"
@@ -197,6 +198,7 @@ const Swipe = () => {
               />
             </a>
           </li>
+
           <li className="glide__slide">
             <a
               href="https://picsum.photos/768/1024"
@@ -245,6 +247,55 @@ const Swipe = () => {
               />
             </a>
           </li>
+
+          <li className="glide__slide">
+            <a
+              href="https://picsum.photos/768/1024"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                src="https://picsum.photos/id/12/768/1024"
+                alt="Lorem Ipsum 1"
+              />
+            </a>
+          </li>
+          <li className="glide__slide">
+            <a
+              href="https://picsum.photos/768/1024"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                src="https://picsum.photos/id/19/768/1024"
+                alt="Lorem Ipsum 2"
+              />
+            </a>
+          </li>
+          <li className="glide__slide">
+            <a
+              href="https://picsum.photos/768/1024"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                src="https://picsum.photos/id/27/768/1024"
+                alt="Lorem Ipsum 3"
+              />
+            </a>
+          </li>
         </ul>
       </div>
 
@@ -261,12 +312,15 @@ const Swipe = () => {
         <button className="glide__bullet" data-glide-dir="=0"></button>
         <button className="glide__bullet" data-glide-dir="=1"></button>
         <button className="glide__bullet" data-glide-dir="=2"></button>
+        <button className="glide__bullet" data-glide-dir="=3"></button>
         <button className="glide__bullet" data-glide-dir="=4"></button>
         <button className="glide__bullet" data-glide-dir="=5"></button>
         <button className="glide__bullet" data-glide-dir="=6"></button>
         <button className="glide__bullet" data-glide-dir="=7"></button>
         <button className="glide__bullet" data-glide-dir="=8"></button>
         <button className="glide__bullet" data-glide-dir="=9"></button>
+        <button className="glide__bullet" data-glide-dir="=10"></button>
+        <button className="glide__bullet" data-glide-dir="=11"></button>
       </div>
     </div>
   );
