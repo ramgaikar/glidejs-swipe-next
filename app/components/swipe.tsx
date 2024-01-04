@@ -46,7 +46,6 @@ const Swipe = () => {
   };
 
   useEffect(() => {
-    console.log("Glide Started");
     new Glide(".glide", {
       type: "slider",
       bound: true,
@@ -58,7 +57,7 @@ const Swipe = () => {
       dragThreshold: false,
       breakpoints: {
         1200: {
-          perView: 5,
+          perView: 6,
           peek: {
             before: 0,
             after: 0,
@@ -301,10 +300,10 @@ const Swipe = () => {
 
       <div className="glide__arrows" data-glide-el="controls">
         <button className="glide__arrow glide__arrow--left" data-glide-dir="<">
-          prev
+          Prev
         </button>
         <button className="glide__arrow glide__arrow--right" data-glide-dir=">">
-          next
+          Next
         </button>
       </div>
 
@@ -317,10 +316,6 @@ const Swipe = () => {
         <button className="glide__bullet" data-glide-dir="=5"></button>
         <button className="glide__bullet" data-glide-dir="=6"></button>
         <button className="glide__bullet" data-glide-dir="=7"></button>
-        <button className="glide__bullet" data-glide-dir="=8"></button>
-        <button className="glide__bullet" data-glide-dir="=9"></button>
-        <button className="glide__bullet" data-glide-dir="=10"></button>
-        <button className="glide__bullet" data-glide-dir="=11"></button>
       </div>
     </div>
   );
